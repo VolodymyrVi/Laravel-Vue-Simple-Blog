@@ -1858,10 +1858,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Header"
+  data: function data() {
+    return {
+      links: [{
+        title: "Главная",
+        href: "/"
+      }, {
+        title: "Блог",
+        href: "/blog"
+      }]
+    };
+  }
 });
 
 /***/ }),
@@ -37418,32 +37426,28 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "nav",
+    { staticClass: "uk-navbar-container", attrs: { "uk-navbar": "" } },
+    [
+      _c("div", { staticClass: "uk-navbar-center" }, [
+        _c(
+          "ul",
+          { staticClass: "uk-navbar-nav" },
+          _vm._l(_vm.links, function(link) {
+            return _c("li", [
+              _c("a", { attrs: { href: link.href } }, [
+                _vm._v(_vm._s(link.title))
+              ])
+            ])
+          }),
+          0
+        )
+      ])
+    ]
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "nav",
-      { staticClass: "uk-navbar-container", attrs: { "uk-navbar": "" } },
-      [
-        _c("div", { staticClass: "uk-navbar-center" }, [
-          _c("ul", { staticClass: "uk-navbar-nav" }, [
-            _c("li", { staticClass: "uk-active" }, [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Active")])
-            ]),
-            _vm._v(" "),
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Parent")])]),
-            _vm._v(" "),
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Item")])])
-          ])
-        ])
-      ]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
