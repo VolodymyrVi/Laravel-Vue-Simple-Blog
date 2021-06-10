@@ -10,9 +10,8 @@
     <h1>hey</h1>
     <div id="app">
 
-        
+        <v-header></v-header>
 
-        
     </div>
     <script src="./js/app.js"></script>
 </body>
