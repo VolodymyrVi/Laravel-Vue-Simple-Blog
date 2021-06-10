@@ -1860,15 +1860,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Header"
 });
@@ -37444,23 +37435,7 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "#" } }, [_vm._v("Active")])
             ]),
             _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Parent")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "uk-bavbar-dropdown" }, [
-                _c("ul", { staticClass: "uk-nav navbar-dropdown-nav" }, [
-                  _c("li", { staticClass: "uk-active" }, [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Active")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [_vm._v("Item")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Item")])])
-                ])
-              ])
-            ]),
+            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Parent")])]),
             _vm._v(" "),
             _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Item")])])
           ])

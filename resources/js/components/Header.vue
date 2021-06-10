@@ -4,16 +4,7 @@
 
             <ul class="uk-navbar-nav">
                 <li class="uk-active"><a href="#">Active</a></li>
-                <li>
-                    <a href="#">Parent</a>
-                    <div class="uk-bavbar-dropdown">
-                        <ul class="uk-nav navbar-dropdown-nav">
-                            <li class="uk-active"><a href="#">Active</a></li>
-                            <li><a href="">Item</a></li>
-                            <li><a href="">Item</a></li>
-                        </ul>
-                    </div>
-                </li>
+                <li><a href="#">Parent</a></li>
                 <li><a href="#">Item</a></li>
             </ul>
 
