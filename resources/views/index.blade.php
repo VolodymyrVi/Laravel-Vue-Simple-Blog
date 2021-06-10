@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blogger</title>
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/uikit-rtl.min.css') }}">
 </head>
 <body>
     <div id="app">
@@ -13,6 +14,8 @@
         <v-header></v-header>
 
     </div>
+    <script src="{{ asset('assets/css/uikit.min.js') }}"></script>
+    <script src="{{ asset('assets/css/uikit-icons.min.js') }}"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
