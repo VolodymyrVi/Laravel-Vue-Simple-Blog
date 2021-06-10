@@ -7,6 +7,13 @@
     <title>Blogger</title>
 </head>
 <body>
-    
+    <h1>hey</h1>
+    <div id="app">
+
+        
+
+        
+    </div>
+    <script src="./js/app.js"></script>
 </body>
 </html>
